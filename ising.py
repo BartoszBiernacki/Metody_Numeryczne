@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+
 def step(spins, M, T):
     for i in range(N):
         x = np.random.randint(N)    # losuję jeden spin do zmiany
